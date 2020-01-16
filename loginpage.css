@@ -1,0 +1,98 @@
+/*
+font from google font
+
+
+    font-family: 'Public Sans', sans-serif;
+
+    font-family: 'Indie Flower', cursive;
+
+    font-family: 'Lobster', cursive;
+
+
+*/
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Lobster|Public+Sans&display=swap');
+
+body, html{
+	margin:0px;
+	padding:0;
+}
+#outerDiv{
+	 background: linear-gradient(-45deg, #a90bba,#fc03b1 , #173bb3);
+	 background-size: cover;
+	 margin:0;
+	 height:100vh;
+}
+
+#loginBox{
+	min-height:300px;
+	max-width: 400px;
+	background:rgba(255,255,255,0.7);
+	//margin-top:15vh;
+	padding:20px;
+	box-shadow:0px 0px 35px #eee;
+	border-radius:20px;
+}
+
+#loginBox:hover{
+	box-shadow:0px 0px 65px #eee;
+}
+
+#loginBox > #heading{
+	 font-family: 'Public Sans', sans-serif;
+	 //line-height:6px;
+	 color:#303030;
+	 font-size:30px;
+	 font-weight:bolder;
+}
+
+#loginBox > #idmessage{
+	 font-family: 'Indie Flower', cursive;
+	 //line-height:6px;
+	 font-size:20px;
+	 color:#303030;
+}
+
+input{
+	width: 80%;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+	border:transparent;
+	border-bottom:1px solid #f00;
+	font-family: 'Indie Flower', cursive;
+	font-size:20px;
+	background:transparent;
+}
+
+button{
+	min-width: 50%;
+	margin-bottom:10px;
+	margin-top:10px;
+	padding:10px;
+	border:transparent;
+	border-bottom:1px solid #303030;
+	background:#056100;
+	color:#ddd;
+	font-weight:bold;
+}
+
+button:hover{
+	background:#a90bba;
+	color:#fff;
+	font-weight:bolder;
+	cursor:pointer;
+}
+
+#forgot{
+	font-family: 'Lobster', cursive;
+	color:#303030;
+}
+
+hr{
+	height:0px;
+	border:.3px solid #eee;
+}
+
+
+
+
